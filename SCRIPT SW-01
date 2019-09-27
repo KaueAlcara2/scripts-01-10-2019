@@ -1,0 +1,5 @@
+enable
+configure terminal
+hostname RT-01
+banner motd "ACESSO APENAS PARA PESSOAS AUTORIZADAS"
+enable secret SenhadaEnable
