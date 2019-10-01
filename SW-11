@@ -3,7 +3,7 @@ configure terminal
 hostname SW-11
 banner motd "ACESSO APENAS PARA PESSOAS AUTORIZADAS"
 enable secret SenhadaEnable
-username jadisson privilege 15 secret script3
+username kaue privilege 15 secret senai
 ip domain-name rede1.local
 crypto key generate rsa general-keys modulus 1024
 line console 0
