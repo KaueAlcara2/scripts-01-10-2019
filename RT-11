@@ -6,7 +6,7 @@ enable secret SenhadaEnable
 security passwords min-length 8
 login block-for 240 attempts 7 within 600
 username kaue privilege 15 secret senai
-ip domain-name rede11.local
+ip domain-name rede1.local
 crypto key generate rsa general-keys modulus 1024
 line console 0
 login local
