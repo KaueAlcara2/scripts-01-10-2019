@@ -4,7 +4,7 @@ hostname SW-32
 banner motd "ACESSO APENAS PARA PESSOAS AUTORIZADAS"
 enable secret SenhadaEnable
 username kaue privilege 15 secret senai
-ip domain-name peachanddaisy.local
+ip domain-name rede3.local
 crypto key generate rsa general-keys modulus 1024
 line console 0
 login local
